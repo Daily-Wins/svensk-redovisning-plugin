@@ -18,14 +18,9 @@ Svenska redovisningsregelverk (BFNAR) paketerade som Claude Code skills för AI-
 
 ## Installation
 
-### Lokalt
 ```bash
-/plugin marketplace add /Users/andersbratland/@code/svensk-redovisning-plugin
+/plugin marketplace add Daily-Wins/svensk-redovisning-plugin
 /plugin install svensk-redovisning
 ```
 
-### Via Git (om publicerad)
-```bash
-/plugin marketplace add <git-url>
-/plugin install svensk-redovisning
-```
+Kör sedan `/reload-plugins`. Skills dyker upp som `svensk-redovisning:k2-regelverk`, `svensk-redovisning:bokforing` osv.
