@@ -9,7 +9,7 @@
     {
       "name": "svensk-redovisning",
       "description": "Svenska redovisningsregelverk (BFNAR) för AI-rådgivning: K1, K2, K3, bokföring, årsbokslut, BRF, fusioner och gränsvärden.",
-      "source": ".",
+      "source": "./plugins/svensk-redovisning",
       "category": "knowledge"
     }
   ]
