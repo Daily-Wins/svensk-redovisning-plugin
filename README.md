@@ -18,6 +18,8 @@ Svenska redovisningsregelverk (BFNAR) paketerade som Claude Code skills för AI-
 
 ## Installation
 
+### Claude Code (rekommenderat)
+
 Kör kommandona **var för sig** i Claude Code:
 
 ```
@@ -37,6 +39,15 @@ Och slutligen:
 ```
 
 Skills blir då tillgängliga som `svensk-redovisning:k2-regelverk`, `svensk-redovisning:bokforing` osv. och aktiveras automatiskt av Claude när du ställer frågor om det aktuella regelverket.
+
+### Claude Desktop / claude.ai
+
+Kräver Max-, Team- eller Enterprise-plan.
+
+1. Gå till [senaste release](https://github.com/Daily-Wins/svensk-redovisning-plugin/releases/latest)
+2. Ladda ner önskade `.zip`-filer (en per skill)
+3. I claude.ai: **Settings → Capabilities → Skills → Upload skill**
+4. Ladda upp varje zip — en åt gången
 
 ## Användning
 
