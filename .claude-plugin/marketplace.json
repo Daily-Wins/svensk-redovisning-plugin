@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "svensk-redovisning-marketplace",
+  "description": "Svenska redovisningsregelverk (BFNAR) som Claude Code skills",
+  "owner": {
+    "name": "Anders Bratland"
+  },
+  "plugins": [
+    {
+      "name": "svensk-redovisning",
+      "description": "Svenska redovisningsregelverk (BFNAR) för AI-rådgivning: K1, K2, K3, bokföring, årsbokslut, BRF, fusioner och gränsvärden.",
+      "source": ".",
+      "category": "knowledge"
+    }
+  ]
+}
