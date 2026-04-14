@@ -18,9 +18,57 @@ Svenska redovisningsregelverk (BFNAR) paketerade som Claude Code skills för AI-
 
 ## Installation
 
-```bash
+Kör kommandona **var för sig** i Claude Code:
+
+```
 /plugin marketplace add Daily-Wins/svensk-redovisning-plugin
+```
+
+Vänta tills marketplace är tillagd, sen:
+
+```
 /plugin install svensk-redovisning
 ```
 
-Kör sedan `/reload-plugins`. Skills dyker upp som `svensk-redovisning:k2-regelverk`, `svensk-redovisning:bokforing` osv.
+Och slutligen:
+
+```
+/reload-plugins
+```
+
+Skills blir då tillgängliga som `svensk-redovisning:k2-regelverk`, `svensk-redovisning:bokforing` osv. och aktiveras automatiskt av Claude när du ställer frågor om det aktuella regelverket.
+
+## Användning
+
+Skills triggas automatiskt på relevanta frågor. Exempel:
+
+- *"Vad säger K2 om avskrivning av byggnad?"* → `k2-regelverk` aktiveras
+- *"Hur bokförs en fusion genom absorption?"* → `fusioner` aktiveras
+- *"Vilka gränsvärden gäller för att räknas som mindre företag?"* → `gransvarden` aktiveras
+
+Du kan även tvinga aktivering genom att nämna skill-namnet direkt.
+
+## Uppdatera
+
+```
+/plugin marketplace update Daily-Wins/svensk-redovisning-plugin
+```
+
+## Avinstallera
+
+```
+/plugin uninstall svensk-redovisning
+/plugin marketplace remove Daily-Wins/svensk-redovisning-plugin
+```
+
+## Källor
+
+Samtliga regelverk bygger på officiell vägledning från [Bokföringsnämnden (BFN)](https://www.bfn.se/). Innehållet är strukturerat för LLM-konsumtion men refererar alltid till exakt punkt i källdokumentet.
+
+## Bidra
+
+Issues och PR:er välkomnas: https://github.com/Daily-Wins/svensk-redovisning-plugin
+
+## Licens
+
+MIT (plugin-strukturen). Regelverkstexterna är offentligt material från BFN.
